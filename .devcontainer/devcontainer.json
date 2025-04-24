@@ -1,0 +1,10 @@
+{
+  "name": "Fight AI Prototype",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:18",
+  "postCreateCommand": "npm ci",
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["src/app/page.tsx"]
+    }
+  }
+}

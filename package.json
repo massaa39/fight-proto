@@ -1,0 +1,33 @@
+{
+  "name": "fight-proto",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint --no-interactive",
+    "test": "jest --passWithNoTests"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "openai": "^4",
+    "axios": "^1",
+    "clsx": "^1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14",
+    "@types/jest": "^29",
+    "autoprefixer": "^10",
+    "eslint": "^9",
+    "eslint-config-next": "latest",
+    "jest": "^29",
+    "jest-environment-jsdom": "^29",
+    "postcss": "^8",
+    "tailwindcss": "^4",
+    "ts-jest": "^29",
+    "typescript": "^5"
+  }
+}
