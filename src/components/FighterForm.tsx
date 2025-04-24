@@ -7,7 +7,8 @@ export default function FighterForm() {
   const [fighter2, setFighter2] = useState('');
   const [error, setError] = useState('');
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+
     e.preventDefault();
     setError('');
     try {
