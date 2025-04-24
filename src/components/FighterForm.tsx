@@ -8,7 +8,6 @@ export default function FighterForm() {
   const [error, setError] = useState('');
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-
     e.preventDefault();
     setError('');
     try {
@@ -53,3 +52,5 @@ export default function FighterForm() {
         予測＆記事生成
       </button>
     </form>
+  );
+}
